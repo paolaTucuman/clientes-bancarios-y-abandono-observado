@@ -38,6 +38,8 @@ El grupo con mayor saldo presenta una tasa de abandono observada mayor. Es un pu
 
 Para una decisión de retención, revisaría primero cómo se distribuye `Exited` junto con otras variables del archivo y comprobaría el resultado en otro periodo o conjunto. Con la procedencia y la fecha originales desconocidas, no se puede extrapolar esta diferencia a los clientes actuales de un banco. Este análisis no evalúa capacidad predictiva ni establece causas.
 
+La [evaluación del alcance causal de los datos](docs/alcance_causal.md) registra qué asociaciones se pueden comprobar, qué información falta y cómo se podría diseñar un estudio sobre causas.
+
 ## Aprendizajes
 
 Separar la variable de abandono de las variables de agrupamiento permitió distinguir **segmentación** de **validación descriptiva**: una diferencia de saldo no indica por sí misma qué grupo abandonó más. Si repitiera el análisis, contrastaría la estabilidad de los grupos y usaría datos de otro periodo antes de proponer una intervención.
